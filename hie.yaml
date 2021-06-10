@@ -1,0 +1,11 @@
+cradle:
+  stack:
+    components:
+      - path: "./src"
+        component: "ffi-example:lib"
+      - path: "./app/length/Main.hs"
+        component: "ffi-example:exe:length"
+      - path: "./app/max/Main.hs"
+        component: "ffi-example:exe:max"
+      - path: "./test/Main.hs"
+        component: "ffi-example:test:test"
